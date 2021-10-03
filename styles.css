@@ -28,6 +28,10 @@ a:active {
   color: blue;
 }
 
+a.visted {
+  color: gray;
+}
+
 .avatar {
   width: 220px;
   border-radius: 32px;
@@ -56,7 +60,6 @@ a:active {
     text-align: center;
     display: block;
   }
-
 }
 
 .info-text {
@@ -68,7 +71,7 @@ a:active {
 
 .container {
   max-width: 750px;
-  margin: none;
+  margin: auto;
   padding-top: 30px;
 }
 
